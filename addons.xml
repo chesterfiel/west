@@ -35,7 +35,7 @@
 <addon id="plugin.video.Catoal"
        name="Catoal[COLOR blue] 5[/COLOR].[COLOR yellow]2[/COLOR].[COLOR red]5a[/COLOR]"
        version="5.2.5a"
-       provider-name="Catoal">
+       provider-name="chesterfiel">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
