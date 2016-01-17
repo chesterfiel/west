@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.Activador.player.PLD" name="[COLOR green]Activador PLAYER.PROYECTOLUZDIGITAL[/COLOR]" version="2.2.8.0" provider-name="[COLOR blue]ProyectoLuzDigital[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.1"/>
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
+  <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Activador para PLAYER.PROYECTOLUZDIGITAL [COLOR blue]ProyectoLuzDigital[/COLOR]</summary>
+    <description>Activador PLAYER.PROYECTOLUZDIGITAL para [COLOR blue]ProyectoLuzDigital[/COLOR]. Creado por El Grupo PLD,  </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.live.pld"
        name="[COLOR blue]player.proyectoluzdigital[/COLOR]"
        version="2.3.2.0"
@@ -31,7 +47,7 @@
   </extension>
 </addon>
 
-    <addon id="repository.west" name="Repo WEST" version="0.1.0" provider-name="Yo">
+    <addon id="repository.west" name="Repo WEST" version="0.1.1" provider-name="Yo">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
